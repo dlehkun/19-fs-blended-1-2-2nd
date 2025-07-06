@@ -1,9 +1,8 @@
-/* base styles */
+/*  BASE STYLES */
 
 :root {
   --accent-color: #02897a;
   --main-color: #22343d;
-  --h-color: #22343d;
 }
 body {
   font-family: "Poppins";
@@ -20,9 +19,22 @@ a {
 
 button {
   border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-/* base dtyles */
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+}
+/*  BASE STYLES */
 
 /* header */
 
@@ -49,6 +61,7 @@ header a {
   text-align: center;
   color: #173a56;
   border-radius: 4px;
+  border: 1px solid #bcd0e5;
 }
 
 .btn-signup-header {
@@ -63,8 +76,29 @@ header a {
 /* SECTION HERO */
 
 .title-hero {
-  color: var(--h-color);
+  color: var(--main-color);
   font-weight: 700;
   font-size: 40px;
   line-height: 150%;
+}
+
+.text-hero {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+}
+
+.btn-getstart {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
+.link-watchtvid {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 16px;
 }

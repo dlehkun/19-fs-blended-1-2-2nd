@@ -34,6 +34,7 @@ button {
   font-size: 40px;
   line-height: 150%;
 }
+
 /*  BASE STYLES */
 
 /* header */
@@ -72,6 +73,7 @@ header a {
   color: #fff;
   border-radius: 4px;
 }
+/* header */
 
 /* SECTION HERO */
 
@@ -101,4 +103,108 @@ header a {
   text-decoration: underline;
   font-weight: 600;
   font-size: 16px;
+}
+/* SECTION HERO */
+
+/* section For You */
+
+.title-for-you {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.title-of-featur {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.text-of-feature {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.btn-signup-foryou {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
+/* section Management */
+
+.title-management {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--main-color);
+}
+
+.text-maangement {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 162%;
+  color: var(--main-color);
+}
+
+.text-support {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--main-color);
+}
+
+.sbtitle-support {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.scnd-text-support {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+.point-text-support {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.text-collaborative {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.title-collaborative {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.scnd-text-collaborative {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.sbtitle-collaborative {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.point-text-collaborative {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
 }

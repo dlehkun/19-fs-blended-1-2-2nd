@@ -209,7 +209,7 @@ header a {
   line-height: 162%;
 }
 
-/* Easy Process */
+/* section Easy Process */
 
 .title-easy-process {
   color: var(--main-color);
@@ -241,4 +241,37 @@ header a {
   font-size: 16px;
   color: #fff;
   background-color: var(--accent-color);
+}
+
+/* section Strategies */
+
+.title-strategies {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.text-strategies {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.point-text-strategies {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+
+.name-accent {
+  font-weight: 700;
+}
+
+.sbttitle-strategies {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167%;
 }

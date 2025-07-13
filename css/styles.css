@@ -275,3 +275,79 @@ header a {
   font-size: 24px;
   line-height: 167%;
 }
+
+/* section Price */
+
+.title-price {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167%;
+}
+
+.text-price {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.title-card {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167%;
+}
+
+.text-card {
+  font-family: "Monserrat" sans-serif;
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 250%;
+}
+
+.price-number-card {
+  font-family: "Monserrat" sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 132%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.dollar-sign {
+  font-family: "Inter";
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0em;
+}
+
+.month {
+  font-family: "Monserrat" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119%;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+
+.explain-price-items {
+  color: var(--main-color);
+  font-family: "Monserrat" sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137%;
+  letter-spacing: 0.01em;
+}
+
+.btn-price-order-now {
+  font-family: "Monserrat" sans-serif;
+  color: #fff;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background-color: var(--accent-color);
+}

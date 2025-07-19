@@ -41,6 +41,11 @@ button {
   line-height: 150%;
 }
 
+svg {
+  height: 32px;
+  width: 32px;
+}
+
 /*  BASE STYLES */
 
 /* header */
@@ -399,4 +404,96 @@ header a {
   line-height: 171%;
   letter-spacing: 0.01em;
   color: #252b42;
+}
+/* JOIN HUNDRED */
+
+.card-join-100-section {
+  border-radius: 32px;
+}
+
+.title-join-100-section {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 151%;
+  color: #fff;
+}
+
+.card-join-100-section {
+  background-color: var(--accent-color);
+}
+
+.btn-get-this {
+  height: 50px;
+  width: 150px;
+  background-color: #fff;
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+/* Footer */
+
+footer a {
+  color: var(--main-color);
+}
+.bottom-nav-title {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.bottom-nav-list {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 219%;
+}
+
+.bottom-nav-title-second {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.bottom-nav-list-second {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 219%;
+}
+
+.bottom-text-deal {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+/* form input {
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 325px;
+  height: 48px;
+  background-color: #fff;
+} */
+
+.btn-bottom-sign-up {
+  border-radius: 4px;
+  width: 131px;
+  height: 39px;
+  color: #fff;
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.end-text {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
 }

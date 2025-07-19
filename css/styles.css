@@ -1,5 +1,11 @@
 /*  BASE STYLES */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --accent-color: #02897a;
   --main-color: #22343d;
@@ -350,4 +356,47 @@ header a {
   width: 139px;
   height: 44px;
   background-color: var(--accent-color);
+}
+
+/* SLIENTS SAY */
+
+.title-cliets-say-sectoin {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 178%;
+  letter-spacing: 0.01em;
+}
+
+.text-cliets-say-section {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.text-comment {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.01em;
+  color: #737373;
+}
+
+.user-name {
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.profession {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.01em;
+  color: #252b42;
 }
